@@ -1,0 +1,18 @@
+This folder contains the hardware design and ESP32 firmware for the AgriVision smart agriculture system.
+
+Hardware Components
+ESP32 development boards
+LoRa SX1278 modules
+Soil Moisture Sensor
+DHT11 Temperature and Humidity Sensor
+pH Sensor
+Rain Sensor
+System Overview
+
+The transmitter collects data from the connected sensors and sends it wirelessly using LoRa. The receiver ESP32 receives the data and forwards it to the backend through Wi-Fi.
+
+Firmware
+transmitter.ino – Sensor data collection and LoRa transmission.
+receiver.ino – LoRa data reception and backend communication.
+
+Hardware integration and testing are ongoing.
